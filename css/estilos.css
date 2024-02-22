@@ -1,0 +1,97 @@
+
+
+:root{
+    --fondoDiv:grey;
+    --colorTexto:black;
+    --colorPeligro:red;
+    --colorcaja:violet;
+
+}
+
+.black-box{
+    background-color: var(--fondoDiv);
+    color:white
+}
+
+.caja1{
+  margin-top: 10px;
+  background-color:cornflowerblue;
+  padding: 15px;
+  color: darkslategrey;
+  text-decoration: none;
+  border-radius: 15px;
+  cursor:pointer;
+  font-size: 15px;
+  transition: blackground-color 0.3s ease;
+}
+
+.caja:hover{
+    background-color: darkcyan;
+
+}
+
+.Nosotros{
+    margin-top: 10px;
+    background-color:cadetblue;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor:pointer;
+    font-size: 15px;
+    transition: blackground-color 0.3s ease;
+  }
+  
+.caja:hover{
+      background-color:aqua;
+  
+  }
+  
+.Actualizacion{
+    margin-top: 10px;
+    background-color:darkcyan;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor:pointer;
+    font-size: 15px;
+    transition: blackground-color 0.3s ease;
+  }
+  
+.caja:hover{
+      background-color:aqua;
+  
+  }
+
+.Iniciar{
+    margin-top: 10px;
+    background-color:grey;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor:pointer;
+    font-size: 15px;
+    transition: blackground-color 0.3s ease;
+  }
+  
+.caja:hover{
+      background-color:aqua;
+  
+  }
+  
+.sa{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+}
+
+.so{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+}
+
+.ac{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+}
